@@ -60,6 +60,6 @@ Remarks:
 
 HOW TO:
 
-The bot works fully automatically. After starting, it will direct you to PayPal, where you have to log in.
+The bot works fully automatic. After starting, it will direct you to PayPal, where you have to log in.
 Then log in to Media Markt again. Next he goes to the Xbox Series X product page at Media Markt and updates it every 10 seconds.
 As soon as the article is in stock, it goes to the checkout and is paid directly via PayPal.

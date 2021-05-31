@@ -58,8 +58,8 @@ namespace MediaMarktBot
             element = driver.FindElement(By.XPath("/html/body/div[1]/div[2]/div[2]/header/div/div[2]/div[5]/button[1]/div/span[1]"));
             element.Click();
             //click on "Anmelden"
-            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.XPath("/html/body/div[1]/div[2]/div[2]/header/div/div[2]/div[5]/div/div/div/button")));
-            element = driver.FindElement(By.XPath("/html/body/div[1]/div[2]/div[2]/header/div/div[2]/div[5]/div/div/div/button"));
+            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.XPath("/html/body/div[1]/div[2]/div[2]/header/div/div[2]/div[5]/div/div/div/div/button[1]")));
+            element = driver.FindElement(By.XPath("/html/body/div[1]/div[2]/div[2]/header/div/div[2]/div[5]/div/div/div/div/button[1]"));
             element.Click();
             // wait until login windows disappeared / user logged in and entered account details
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.InvisibilityOfElementLocated(By.XPath("/html/body/div[1]/div[1]/div/div[2]")));

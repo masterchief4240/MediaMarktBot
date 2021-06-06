@@ -62,7 +62,7 @@ namespace MediaMarktBot
             element = driver.FindElement(By.XPath("/html/body/div[1]/div[2]/div[2]/header/div/div[2]/div[5]/div/div/div/div/button[1]"));
             element.Click();
             // wait until login windows disappeared / user logged in and entered account details
-            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.InvisibilityOfElementLocated(By.XPath("/html/body/div[1]/div[1]/div/div[2]")));
+            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.InvisibilityOfElementLocated(By.XPath("/html/body/div[1]/div[2]/section[1]/div/form/p/a/span")));
 
             // go to xbox article site
             driver.Url = "https://www.mediamarkt.de/de/product/_microsoft-xbox-series-x-1-tb-2677360.html";

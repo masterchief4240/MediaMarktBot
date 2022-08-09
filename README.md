@@ -1,6 +1,9 @@
 # MediaMarktBot
 
+-----
 NOTE: The bot is currently not working. Since the target websites always get updated, the referring links and references in the code need to be adjusted as well. You can either make the adjustments in the code yourself or open an issue and I will see what I can do.
+-----
+
 
 Simple App that will refresh the Xbox Series X product page on the german retail store Media Markt and buy the Xbox it once in stock.
 Since the demand is so high and new stocks are sold out within minutes I thought this app might be useful for some people.
